@@ -1,11 +1,16 @@
+TEDxJacobsUniversty Static Page
+===============================
+
 To run:
-* run `python --vesion` and check python version
-* For Python 2.7, run `python -m SimpleHTTPServer`
-* For Python 3.x, run `python -m http.server`
-* Goto `http://localhost:8000` on your browser
+-------
+- run `python --vesion` and check python version
+- For Python 2.7, run `python -m SimpleHTTPServer`
+- For Python 3.x, run `python -m http.server`
+- Goto `http://localhost:8000` on your browser
 
 
 Signup Form:
+------------
 
 	The signup form won't actually do anything (other than report back with a "thank you" message)
 	until you tie it to either a third party service (eg. MailChimp) or your own hosted solution.
@@ -24,6 +29,7 @@ Signup Form:
 
 
 Slideshow Background:
+--------------------
 
 	This is pretty straightforward, but there are two JS settings you'll want to be aware of
 	(found under "Slideshow Background" in assets/js/main.js):
@@ -46,6 +52,7 @@ Slideshow Background:
 
 
 Credits:
+--------
 
 	Demo Images:
 		Unsplash (unsplash.com)
