@@ -36,6 +36,11 @@
     <!-- Add venobox -->
     <link rel="stylesheet" href="venobox/venobox.css" type="text/css" media="screen"/>
 
+    <style>
+        @font-face { font-family: Amatic; src: url('assets/fonts/Amatic-bold.ttf'); } 
+        @font-face { font-family: Amatic; src: url('assets/fonts/Amatic-regular.ttf'); } 
+    </style>
+
 </head>
 <body>
 
@@ -68,14 +73,17 @@
 
     <!-- Banner -->
     <section id="banner">
-        <div class="inner">
-            <div class="logo"
-                 style="display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: space-between">
-                <img src="images/logo.png" style="max-width: 400px">
-                <img src="images/theme_logo_inv.png" style="max-width: 200px">
+        <div class="inner" style="display:flex; flex-direction:row; flex-wrap:wrap; align-items:center; justify-content:space-between">
+            <div style="display:flex; flex-direction:row; flex-wrap:wrap; align-items:center; justify-content:flex-start">
+                <img src="images/theme_logo_inv.png" style="max-width: 200px; min-width:100px; width:15vw; border-right: thin solid #ffffff;">
+                <div class="logo" style="padding-bottom:0; margin-bottom:0">
+                    <img src="images/logo.png" style="max-width: 400px; min-width:150px; width:20vw">
+                </div>
             </div>
-            <h2 style="text-transform: capitalize">November 12<sup style="text-transform: lowercase;">th</sup>, 2016
-            </h2>
+            <div style="display:flex; align-items:center; justify-content:center; padding:0px; margin:0px">
+                <h2 style="text-transform: capitalize; font-family:Amatic;border:0px; padding:0px; margin:0px">November 12<sup style="text-transform: lowercase;">th</sup>, 2016
+                </h2>
+            </div>
         </div>
     </section>
 
@@ -155,7 +163,7 @@
         </section>
 
         <!-- Four -->
-        <section id="four" class="wrapper alt style1">
+        <!-- <section id="four" class="wrapper alt style1">
             <div class="inner">
                 <h2 class="major">Vitae phasellus</h2>
                 <p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce
@@ -195,7 +203,7 @@
                     <li><a href="#" class="button">Browse All</a></li>
                 </ul>
             </div>
-        </section>
+        </section> -->
 
     </section>
 
