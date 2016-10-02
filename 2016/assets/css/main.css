@@ -3908,7 +3908,7 @@ body.is-loading #banner p {
   /* line 9, ../sass/layout/_footer.scss */
   #footer {
     background-color: #4F7B9A;
-    background-image: linear-gradient(to top, rgba(79, 123, 154, 0.8), rgba(79, 123, 154, 0.8)), url("../../images/bg.jpg");
+    background-image: linear-gradient(to top, rgba(79, 123, 154, 0.8), rgba(79, 123, 154, 0.8)), url("../../images/vincent_full.jpg");
     background-size: auto, cover;
     background-position: center, center;
     margin-top: -6.5em;
