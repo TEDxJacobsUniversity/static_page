@@ -55,30 +55,6 @@
 </head>
 <body>
 
-<!-- Modals -->
-<div id="speaker_1" style="display:none;">
-    <div style="display: flex; flex-direction: column; justify-content: space-between; text-align: center">
-        <h2>Michelle Werning</h2>
-        <div>
-            <img src="images/speakers/Michelle.jpg" style="max-width: 400px">
-        </div>
-        <p>Are some people born to be heroes, or can it be learned? A childhood life tarnished by tragedy, Michelle
-            Werning drew inspiration from Dr. Philip Zimbardo and dedicated her life in helping become everyday
-            heroes.</p>
-    </div>
-</div>
-<div id="speaker_2" style="display:none;">
-    <div style="display: flex; flex-direction: column; justify-content: space-between; text-align: center">
-        <h2>Gerald Marin</h2>
-        <div>
-            <img src="images/speakers/Gerald.jpg" style="max-width: 400px">
-        </div>
-        <p>To help save food, Gerald Marin and his team collect fruits and vegetables that would otherwise be wasted and
-            turn them into dried food powder, prolonging shelf-life from 2 weeks to about 2 years.</p>
-    </div>
-</div>
-
-
 <!-- Page Wrapper -->
 <div id="page-wrapper">
 
@@ -90,21 +66,6 @@
         <!--<a href="#menu">Menu</a>-->
         <!--</nav>-->
     </header>
-
-    <!-- Menu -->
-    <!--<nav id="menu">-->
-    <!--<div class="inner">-->
-    <!--<h2>Menu</h2>-->
-    <!--<ul class="links">-->
-    <!--<li><a href="index.html">Home</a></li>-->
-    <!--<li><a href="generic.html">Generic</a></li>-->
-    <!--<li><a href="elements.html">Elements</a></li>-->
-    <!--<li><a href="#">Log In</a></li>-->
-    <!--<li><a href="#">Sign Up</a></li>-->
-    <!--</ul>-->
-    <!--<a href="#" class="close">Close</a>-->
-    <!--</div>-->
-    <!--</nav>-->
 
     <!-- Banner -->
     <section id="banner">
@@ -128,10 +89,10 @@
     <!-- Wrapper -->
     <section id="wrapper">
 
-        <!-- One -->
+        <!-- One: Setting sails -->
         <section id="one" class="wrapper spotlight style1">
             <div class="inner">
-                <a href="#" class="image"><img src="images/oldboat.png" alt=""/></a>
+                <a href="#" class="image"><img src="images/oldboat.png" alt="" style="width: 115%" /></a>
                 <div class="content">
                     <h2 class="major">Setting Sails</h2>
                     <p>This year’s <b style="color:red;">TEDx</b>JacobsUniversity event will be anchored by
@@ -148,7 +109,7 @@
             </div>
         </section>
 
-        <!-- Two -->
+        <!-- Two: Jacobs University -->
         <section id="two" class="wrapper alt spotlight style2">
             <div class="inner">
                 <a href="http://jacobs-university.de/" class="image" target="_blank"><img
@@ -165,23 +126,47 @@
                 </div>
             </div>
         </section>
-
-        <!-- Three -->
-        <section id="there" class="wrapper spotlight style3">
+       
+       <!-- Three: Speakers -->
+        <section id="three" class="wrapper style3">
             <div class="inner">
-                <a href="http://jacobs-university.de/" class="image" target="_blank"><img
-                        src="images/diver.png" alt=""/></a>
+	            	<h2 class="major">Speakers</h2>
+	                <section class="features">
+	                    <article>
+	                        <a  class="image"><img src="images/speakers/Michelle.jpg"  alt=""/></a>
+	                        <h3 class="major">Michelle Werning</h3>
+	                        <p>Are some people born to be heroes, or can it be learned? A childhood life tarnished by tragedy, Michelle
+	            Werning drew inspiration from Dr. Philip Zimbardo and dedicated her life in helping become everyday
+	            heroes.</p>
+	                    </article>
+	                    <article>
+	                        <a class="image"><img src="images/speakers/Gerald.jpg" alt="" /></a>
+	                        <h3 class="major">Gerald Marin</h3>
+	                        <p>To help save food, Gerald Marin and his team collect fruits and vegetables that would otherwise be wasted and
+	            turn them into dried food powder, prolonging shelf-life from 2 weeks to about 2 years.</p>
+	                    </article>
+	                </section>
+
+            </div>
+        </section>
+
+        <!-- Four: Sponsors -->
+        <section id="four" class="wrapper alt spotlight style4">
+            <div class="inner">
+                <a class="image"><img
+                        src="images/diver.png" style="width: 115%" alt=""/></a>
                 <div class="content">
-                    <h2 class="major">Speakers</h2>
-                    <p><a href="#speaker_1" rel="modal:open">Michelle Werning</a></p>
-                    <p><a href="#speaker_2" rel="modal:open">Gerald Marin</a></p>
+                    <h2 class="major">Sponsors and Partners</h2>
+                    <a class="image" style="border-radius:0 !important" target="_blank" href="https://www.ews-schoenau.de/"><img style="border-radius:0 !important" src="images/sponsors/ews.svg" alt=""/></a>
                 </div>
             </div>
         </section>
 
-        <!-- Four -->
-        <section id="four" class="wrapper alt spotlight style4">
+        <!-- Five: TED and TEDx -->
+        <section id="five" class="wrapper spotlight style5">
             <div class="inner">
+            	           <a class="image"><img
+                        src="images/seagull.svg" style="width: 115%" alt=""/></a>
                 <div class="content">
                     <h2 class="major">About <b style="color: red">TED</b> and <b
                             style="color: red; text-transform: none">TEDx</b>
@@ -213,56 +198,13 @@
             </div>
         </section>
 
-        <!-- Four -->
-        <!-- <section id="four" class="wrapper alt style1">
-            <div class="inner">
-                <h2 class="major">Vitae phasellus</h2>
-                <p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce
-                    tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in
-                    tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-                <section class="features">
-                    <article>
-                        <a href="#" class="image"><img src="images/pic04.jpg" alt=""/></a>
-                        <h3 class="major">Sed feugiat lorem</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus
-                            ultrices.</p>
-                        <a href="#" class="special">Learn more</a>
-                    </article>
-                    <article>
-                        <a href="#" class="image"><img src="images/pic05.jpg" alt=""/></a>
-                        <h3 class="major">Nisl placerat</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus
-                            ultrices.</p>
-                        <a href="#" class="special">Learn more</a>
-                    </article>
-                    <article>
-                        <a href="#" class="image"><img src="images/pic06.jpg" alt=""/></a>
-                        <h3 class="major">Ante fermentum</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus
-                            ultrices.</p>
-                        <a href="#" class="special">Learn more</a>
-                    </article>
-                    <article>
-                        <a href="#" class="image"><img src="images/pic07.jpg" alt=""/></a>
-                        <h3 class="major">Fusce consequat</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus
-                            ultrices.</p>
-                        <a href="#" class="special">Learn more</a>
-                    </article>
-                </section>
-                <ul class="actions">
-                    <li><a href="#" class="button">Browse All</a></li>
-                </ul>
-            </div>
-        </section> -->
-
     </section>
 
     <!-- Footer -->
     <section id="footer">
         <div class="inner">
             <h2 class="major">Get in touch</h2>
-            <form method="post" action="#">
+            <form method="post" action="https://formspree.io/contact@tedxjacobsuniversity.com">
                 <div class="field">
                     <label for="name">Name</label>
                     <input type="text" name="name" id="name"/>
@@ -276,7 +218,7 @@
                     <textarea name="message" id="message" rows="4"></textarea>
                 </div>
                 <ul class="actions">
-                    <li><input type="submit" value="Send Carrier Pigeon"/></li>
+                    <li><input type="submit" value="Send Message Bottle"/></li>
                 </ul>
             </form>
             <ul class="contact">
